@@ -1,0 +1,116 @@
+header { 
+    text-align: left;
+}
+
+body {
+    background-color: rgba(238, 193, 234, 20%);
+    font-family: "Epilogue", sans-serif;
+}
+
+hr {
+    border: 1px solid rgb(190, 151, 220, 40%);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: rgb(90, 63, 119);
+  margin: 4px 4px;
+}
+
+p {
+  color: rgb(179, 166, 193);
+  margin: 2px;
+}
+
+strong {
+  color: rgb(252, 213, 63);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(163, 116, 213);
+}
+
+a:hover {
+  color: rgb(90, 63, 119);
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px; 
+    padding: 10px;
+}
+
+.app-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 14px;
+}
+
+.search-input, 
+.search-button {
+    font-size: 14px;
+    margin: 6px;
+}
+
+.search-input {
+    background: rgba(238, 193, 234, 20%);
+    width: calc(100% - 24px);
+    max-width: 340px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.search-button { 
+    background: rgb(190, 151, 220);
+    color: rgb(255, 255, 255);
+    width: 64px;
+    padding: 8px;
+    border: 1px solid rgb(190, 151, 220);
+    transition: all 100ms ease-in-out;
+    border-radius: 10px;
+}
+
+.search-button:hover { 
+    background: rgb(255, 255, 255);
+    color: rgb(190, 151, 220);
+    cursor: pointer;
+}
+
+.date-container {
+  display: flex;
+  justify-content: right;
+}
+
+.temperature-container {
+    color: rgb(90, 63, 119);
+    font-size: 44px;
+    line-height: 60px;
+    padding: 4px;
+}
+
+.temperature-icon {
+  font-size: 64px;
+}
+
+.temperature-value {
+  font-weight: 800;
+}
+
+.temperature-unit {
+    font-size: 26px;
+}
+
+.current-temperature {
+  display: flex;
+  justify-content: center;
+}
+
+.temperature-description {
+    font-size: 38px;
+}
