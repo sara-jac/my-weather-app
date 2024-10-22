@@ -82,9 +82,9 @@ footer {
     cursor: pointer;
 }
 
-.date-container {
+.place-container {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
 }
 
 .temperature-container {
