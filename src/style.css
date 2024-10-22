@@ -11,13 +11,6 @@ hr {
     border: 1px solid rgb(190, 151, 220, 40%);
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: 600;
-  color: rgb(90, 63, 119);
-  margin: 4px 4px;
-}
-
 p {
   color: rgb(179, 166, 193);
   margin: 2px;
@@ -39,7 +32,7 @@ a:hover {
 footer {
     font-family: "Roboto", sans-serif;
     font-size: 14px; 
-    padding: 10px;
+    padding: 6px;
 }
 
 .app-container {
@@ -82,20 +75,25 @@ footer {
     cursor: pointer;
 }
 
-.place-container {
+.place-container, .current-city, .current-time {
   display: flex;
   justify-content: space-between;
+  color: rgb(163, 116, 213);
+  font-weight: 600;
 }
 
 .temperature-container {
+    display: flex;
+    justify-content: center;
     color: rgb(90, 63, 119);
-    font-size: 44px;
+    font-size: 60px;
     line-height: 60px;
-    padding: 4px;
+    padding: 2px;
 }
 
 .temperature-icon {
-  font-size: 64px;
+  font-size: 60px;
+  padding: 2px;
 }
 
 .temperature-value {
@@ -103,7 +101,7 @@ footer {
 }
 
 .temperature-unit {
-    font-size: 26px;
+    font-size: 48px;
 }
 
 .current-temperature {
@@ -112,5 +110,6 @@ footer {
 }
 
 .temperature-description {
-    font-size: 38px;
+    font-size: 44px;
+    padding: 2px;
 }
