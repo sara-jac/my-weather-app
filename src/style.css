@@ -92,16 +92,16 @@ footer {
 }
 
 .temperature-icon {
-  font-size: 44px;
-  padding: 2px;
-}
-
-.temperature-value {
-  font-weight: 800;
+  font-size: 36px;
 }
 
 .temperature-unit {
-    font-size: 48px;
+  margin-bottom: 6px;
+  font-size: 28px;
+}
+
+.temperature-value {
+  font-weight: 600;
 }
 
 .current-temperature {
@@ -110,6 +110,6 @@ footer {
 }
 
 .temperature-description {
-    font-size: 44px;
+    font-size: 40px;
     padding: 2px;
 }
