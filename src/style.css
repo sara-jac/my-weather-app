@@ -84,21 +84,20 @@ footer {
   justify-content: center;
   color: rgb(90, 63, 119);
   font-size: 60px;
-  line-height: 60px;
+  line-height: 88px;
+  font-weight: 600;
   padding: 2px;
 }
 
 .temperature-icon {
-  font-size: 36px;
+  margin-top: 8px;
+  width: 64px;
+  height: 64px;
 }
 
 .temperature-unit {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-size: 28px;
-}
-
-.temperature-value {
-  font-weight: 600;
 }
 
 .current-temperature {
