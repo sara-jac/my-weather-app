@@ -15,12 +15,14 @@
 <body>
     <div class="app-container">
     <header>
-      <form class="search-form">
+      <form class="search-form" id="search-form">
           <input 
           type="search" 
           class="search-input"
           placeholder="Enter a city..." 
-          required>
+          required
+          id="search-input"
+          >
           <input 
           type="submit"
           class="search-button" 
@@ -28,7 +30,7 @@
       </form>
         <hr>
       <div class="place-container">
-        <p class="current-city">
+        <p class="current-city" id="current-city">
             Johannesburg
         </p>  
       <p class="current-time">
