@@ -1,19 +1,16 @@
 header { 
-    text-align: left;
+  text-align: left;
 }
 
 body {
-    background-color: rgba(238, 193, 234, 20%);
-    font-family: "Epilogue", sans-serif;
+  color: rgb(179, 166, 193);
+  background-color: rgba(238, 193, 234, 20%);
+  font-family: "Epilogue", sans-serif;
+  margin: 2px;
 }
 
 hr {
-    border: 1px solid rgb(190, 151, 220, 40%);
-}
-
-p {
-  color: rgb(179, 166, 193);
-  margin: 2px;
+  border: 1px solid rgb(190, 151, 220, 40%);
 }
 
 strong {
@@ -30,49 +27,49 @@ a:hover {
 }
 
 footer {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px; 
-    padding: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; 
+  padding: 6px;
 }
 
 .app-container {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 1);
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 16px;
-    border-radius: 14px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 14px;
 }
 
 .search-input, 
 .search-button {
-    font-size: 14px;
-    margin: 6px;
+  font-size: 14px;
+  margin: 6px;
 }
 
 .search-input {
-    background: rgba(238, 193, 234, 20%);
-    width: calc(100% - 24px);
-    max-width: 340px;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
+  background: rgba(238, 193, 234, 20%);
+  width: calc(100% - 24px);
+  max-width: 340px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
 }
 
 .search-button { 
-    background: rgb(190, 151, 220);
-    color: rgb(255, 255, 255);
-    width: 64px;
-    padding: 8px;
-    border: 1px solid rgb(190, 151, 220);
-    transition: all 100ms ease-in-out;
-    border-radius: 10px;
+  background: rgb(190, 151, 220);
+  color: rgb(255, 255, 255);
+  width: 64px;
+  padding: 8px;
+  border: 1px solid rgb(190, 151, 220);
+  transition: all 100ms ease-in-out;
+  border-radius: 10px;
 }
 
 .search-button:hover { 
-    background: rgb(255, 255, 255);
-    color: rgb(190, 151, 220);
-    cursor: pointer;
+  background: rgb(255, 255, 255);
+  color: rgb(190, 151, 220);
+  cursor: pointer;
 }
 
 .place-container, .current-city, .current-time {
@@ -83,12 +80,12 @@ footer {
 }
 
 .temperature-container {
-    display: flex;
-    justify-content: center;
-    color: rgb(90, 63, 119);
-    font-size: 60px;
-    line-height: 60px;
-    padding: 2px;
+  display: flex;
+  justify-content: center;
+  color: rgb(90, 63, 119);
+  font-size: 60px;
+  line-height: 60px;
+  padding: 2px;
 }
 
 .temperature-icon {
@@ -110,6 +107,6 @@ footer {
 }
 
 .temperature-description {
-    font-size: 40px;
-    padding: 2px;
+  font-size: 40px;
+  padding: 2px;
 }
