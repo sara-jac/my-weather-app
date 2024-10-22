@@ -8,7 +8,7 @@ function getWeather(response) {
   let timeElement = document.querySelector("#current-time");
   let date = new Date(response.data.time * 1000); 
   let iconElement = document.querySelector("#temperature-icon");
-  console.log(date);
+
 
   cityElement.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
