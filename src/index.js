@@ -95,7 +95,7 @@ function displayForecast(response) {
       `;
     }
   });
-  
+
   let forecastElement = document.querySelector("#weather-forecast");
   forecastElement.innerHTML = forecastHtml;
 }
@@ -104,4 +104,4 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchSubmit);
 
 searchCity("Johannesburg");
-getForecast("Paris");
+
