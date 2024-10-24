@@ -36,7 +36,7 @@ hr {
 /* App Container */
 .app-container {
   text-align: center;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 80%);
   max-width: 580px;
   margin: 34px auto;
   padding: 24px;
@@ -91,7 +91,6 @@ hr {
   font-size: 60px;
   font-weight: 600;
   margin-top: 16px;
-  padding: 2px;
 }
 
 .temperature-icon {
@@ -138,7 +137,8 @@ hr {
 }
 
 .weather-forecast-temperature {
-  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Icons */
