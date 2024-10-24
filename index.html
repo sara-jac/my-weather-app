@@ -10,6 +10,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on" 
+    />
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather App</title>
 </head>
@@ -30,23 +32,26 @@
           value="Search">
       </form>
         <hr>
-      <div class="place-container">
-        <p class="current-city" id="current-city">
-        </p>  
-      <p class="current-time" id="current-time">
+      <div class="date-container">
+      <p class="current-date" id="current-time">
       </p>
       </div>
     </header>
     <main>
+      <div class="material-symbols-outlined">
+       location_on
+      </div>
+        <div class="current-city" id="current-city">
+        </div>  
       <div class="temperature-container">
         <div id="temperature-icon">
         </div>
         <div class="current-temperature">
           <div class="temperature-value" id="temperature-value">    
           </div>
-          <div class="temperature-unit">
+        </div>
+        <div class="temperature-unit">
             °C
-          </div>
         </div>
       </div>  
       <div>
