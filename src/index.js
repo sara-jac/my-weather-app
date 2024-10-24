@@ -57,7 +57,9 @@ function searchSubmit(event) {
 
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
-  
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+
+  return days[date.getDay()];
 }
 
 function getForecast(city) {
@@ -67,7 +69,6 @@ function getForecast(city) {
 }
 
 function displayForecast(response) {
-  let forecastElement = document.querySelector("#weather-forecast");
   let forecastHtml = "";
 
   response.data.daily.forEach(function (day, index) {
@@ -77,7 +78,7 @@ function displayForecast(response) {
         `
       <div class="weather-forecast-day">
         <div class="weather-forecast-date">
-          Tue
+          ${formatDay(day.time)}
         </div>
           <img src="${day.condition.icon_url}" class="weather-forecast-icon"/>
         <div class="weather-forecast-temperatures">
@@ -94,7 +95,8 @@ function displayForecast(response) {
       `;
     }
   });
-
+  
+  let forecastElement = document.querySelector("#weather-forecast");
   forecastElement.innerHTML = forecastHtml;
 }
 
